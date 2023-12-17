@@ -1,0 +1,104 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Define a class for image zoom on hover */
+.image-zoom-on-hover {
+    transition: transform 0.3s;
+}
+
+.image-zoom-on-hover:hover {
+    transform: scale(1.1);
+    /* You can adjust the scale value for the desired zoom level */
+}
+
+.custom-button {
+    background-color: #f8f8f8;
+    /* Default background color */
+    transition: background-color 0.3s;
+
+
+}
+
+.custom-button:hover {
+    background-color: #D4AF37;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+/* custom btn styles */
+.customBtn {
+    margin-right: 4px;
+}
+
+.customBtn:hover {
+    color: white;
+}
+
+/* style of icons (size and color) whose i adjust during development  */
+
+.custom-icon1 {
+    color: blue;
+}
+
+.custom-icon2 {
+    color: red;
+}
+
+.custom-icon3 {
+    color: brown;
+}
+
+.nav-link {
+    color: #D4AF37;
+}
+
+.nav-link:hover {
+    color: #a3893b;
+}
+
+/* style of  search-icon of header */
+.search-icon {
+    background: #D4AF37
+}
+
+.search-icon:hover {
+    background: #887b52;
+}
